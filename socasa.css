@@ -1,0 +1,184 @@
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+ 
+
+.navcasa{
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 10px 13px -2px rgba(0,0,0,0.75);
+    background-color: white;
+    z-index: 99;
+    padding: 10px 0 10px 0;
+    overflow: hidden;
+}
+
+nav{
+    float: right;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-item{
+    color: black;
+   margin-left: 40px;
+   vertical-align: middle;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    color: orangered;
+}
+
+.nav-link:active{
+    color: orangered;
+}
+
+.nav-item i:active{
+    color: orangered;
+}
+
+.nav-item i:hover{
+    color: orangered;
+}
+
+.logo{
+    height: 90px;
+    vertical-align: middle;
+}
+
+.slide{
+    padding:50px 0 10px 0;
+    z-index: 0;
+    width:100%;
+}
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border-top-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+    background-color: transparent !important;
+    border: 2px solid #f66e08 !important;
+}
+
+#propos{
+    padding: 150px;
+}
+
+#propos h3{
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.orangered{
+    color: orangered;
+}
+
+#propos a{
+    color: orangered;
+    text-decoration: none;
+}
+
+.col-2
+{
+    padding:2px
+}
+
+.p0
+{
+    padding:0
+}
+
+#vignettes
+{
+    background: #f2f2f0;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#vignettes h3{
+    color: orangered;
+    font-size: 20px;
+}
+
+#vignettes h2{
+    padding-bottom: 10px;
+}
+
+#repeat{
+    padding-bottom: 20px;
+}
+
+#btn_casa{
+    background-color: orange;
+    padding: 0 60px 0 60px;
+}
+
+#btn_casa i{
+    padding-right: 10px;
+}
+
+#btn_casa:hover{
+    background-color: black;
+}
+
+#contact{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact h2{
+    color: orangered;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#contact h3{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+#contact span{
+    color: orangered;
+}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact i{
+    color: orangered;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.ftr_casa{
+    background-color: black;
+    color: white;
+}
+
+.ftr_casa  a{
+    float: right;
+    color: white;
+    text-decoration: none;
+}
