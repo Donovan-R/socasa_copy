@@ -78,13 +78,17 @@ nav{
 }
 
 #propos{
-    padding: 150px;
+    padding-top: 100px;
 }
 
 #propos h3{
     color: orangered;
     text-transform: uppercase;
     font-size: 15px;
+}
+
+#propos h2{
+    margin-bottom: 45px;
 }
 
 .orangered{
@@ -94,6 +98,10 @@ nav{
 #propos a{
     color: orangered;
     text-decoration: none;
+}
+
+#patch{
+    padding-top: 100px;
 }
 
 .col-2
@@ -130,10 +138,16 @@ nav{
 #btn_casa{
     background-color: orange;
     padding: 0 60px 0 60px;
+    border: none;
 }
 
 #btn_casa i{
     padding-right: 10px;
+}
+
+#btn_casa a{
+    color: white;
+    text-decoration: none;
 }
 
 #btn_casa:hover{
